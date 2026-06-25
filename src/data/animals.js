@@ -1,0 +1,89 @@
+import cow from '../assets/images/cow.jpg'
+import goat from '../assets/images/goat.jpg'
+import goat2 from '../assets/images/goat-2.jpg'
+import sheep from '../assets/images/sheep.jpg'
+import camel1 from '../assets/images/camel-1.jpg'
+import bigCamel from '../assets/images/big-camel.jpg'
+
+const animals = [
+  {
+    id: 1,
+    name: 'Deshi Shahi Cow',
+    type: 'Cow',
+    breed: 'Local Deshi',
+    price: 120000,
+    weight: 280,
+    age: 3,
+    location: 'Bogura',
+    description: 'Healthy deshi cow suitable for Qurbani. Well fed with natural fodder and calm in nature.',
+    image: cow,
+    category: 'Large Animal',
+  },
+  {
+    id: 2,
+    name: 'Jamuna Goat',
+    type: 'Goat',
+    breed: 'Black Bengal',
+    price: 18000,
+    weight: 38,
+    age: 2,
+    location: 'Rajshahi',
+    description: 'A strong and lively goat with fine meat quality and a calm disposition.',
+    image: goat,
+    category: 'Small Animal',
+  },
+  {
+    id: 3,
+    name: 'Golden Bull',
+    type: 'Cow',
+    breed: 'Sahiwal',
+    price: 215000,
+    weight: 320,
+    age: 4,
+    location: 'Pabna',
+    description: 'Premium quality bull known for strong frame and healthy growth.',
+    image: bigCamel,
+    category: 'Large Animal',
+  },
+  {
+    id: 4,
+    name: 'Hill Goat',
+    type: 'Goat',
+    breed: 'Boer Cross',
+    price: 24000,
+    weight: 45,
+    age: 2,
+    location: 'Sylhet',
+    description: 'A muscular and hardy goat with a neat body and fast growth.',
+    image: goat2,
+    category: 'Small Animal',
+  },
+  {
+    id: 5,
+    name: 'Meadow Cow',
+    type: 'Cow',
+    breed: 'Crossbred',
+    price: 158000,
+    weight: 295,
+    age: 3,
+    location: 'Rangpur',
+    description: 'Gentle and well-maintained cow with excellent health and calm behavior.',
+    image: sheep,
+    category: 'Large Animal',
+  },
+  {
+    id: 6,
+    name: 'White Star Goat',
+    type: 'Goat',
+    breed: 'Jamnapari',
+    price: 29000,
+    weight: 50,
+    age: 3,
+    location: 'Barisal',
+    description: 'A graceful premium goat with excellent appearance and great meat quality.',
+    image: camel1,
+    category: 'Small Animal',
+  },
+]
+
+export default animals
