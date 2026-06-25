@@ -13,6 +13,7 @@ QurbaniHat is a modern single-page livestock booking platform for Eid-ul-Adha. U
 ## Live Demo
 - Local preview: http://localhost:3000
 - Deployment-ready for Vercel or Netlify
+- GitHub repository: https://github.com/nahid03nirob/assignment-8.git
 
 ## Tech Stack
 - Vite
