@@ -164,6 +164,7 @@ function renderShell(content) {
 
 function renderHomePage() {
   const featured = animals.slice(0, 4);
+  const featuredTitle = featured.length ? 'Featured animals' : 'No animals available';
   return renderShell(`
     <section class="hero">
       <div class="hero-card">
