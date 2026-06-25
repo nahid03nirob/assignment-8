@@ -279,6 +279,9 @@ button, input, select, textarea { font: inherit; }
 .footer a {
   color: #fef3c7;
 }
+.footer a:hover {
+  color: white;
+}
 .muted { color: #cbd5e1; }
 @media (max-width: 600px) {
   .nav-inner {
